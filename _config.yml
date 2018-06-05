@@ -1,0 +1,9 @@
+# Site settings
+title: "William R. Blevins"
+description: "This is my website. I think the URL is pretty self-explanatory." 
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://williamrblevins.info/:4000" # the base hostname & protocol for your site
+twitter_username: willblev
+github_username:  willblev
+# Build settings
+markdown: kramdown
