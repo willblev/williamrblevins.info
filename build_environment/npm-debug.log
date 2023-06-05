@@ -1,0 +1,45 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'run', 'build' ]
+2 info using npm@3.10.10
+3 info using node@v6.14.2
+4 verbose run-script [ 'prebuild', 'build', 'postbuild' ]
+5 info lifecycle williamrblevins.info@0.1.0~prebuild: williamrblevins.info@0.1.0
+6 silly lifecycle williamrblevins.info@0.1.0~prebuild: no script for prebuild, continuing
+7 info lifecycle williamrblevins.info@0.1.0~build: williamrblevins.info@0.1.0
+8 verbose lifecycle williamrblevins.info@0.1.0~build: unsafe-perm in lifecycle true
+9 verbose lifecycle williamrblevins.info@0.1.0~build: PATH: /usr/lib/node_modules/npm/bin/node-gyp-bin:/home/william/Dropbox/williamrblevins.info-master/build_environment/node_modules/.bin:/soft/bio/sequence/cufflinks-2.2.1/:/soft/bio/sequence/bedtools-2.25.0/bin:/home/william/Documents/programs/mendeleydesktop-1.15.1-linux-x86_64/bin/:/home/william/anaconda3/bin:/soft/bio/sequence/kallisto:/soft/bio/sequence/emboss-6.6.0/bin/:/soft/bio/sequence/gmap/bin:/soft/bio/sequence/blat/:/soft/bio/sequence/oases_0.2.08:/soft/bio/sequence/velvet_1.2.08:/soft/bio/sequence/fastx_toolkit-0.0.13.2/bin:/soft/bio/sequence/snap_v1.0:/soft/bio/sequence/bam-read-1.0:/soft/bio/sequence/SalmonBeta-v0.3.0/bin:/soft/bio/sequence/ncbi-blast-2.2.29+/bin:/soft/bio/sequence/transrate-1.0.0.beta3:/soft/bio/sequence/bedtools-2.17.0/bin:/soft/bio/sequence/phylip-3.69/exe:Documents/programs/fastq_screen_v0.5.2/:/soft/bio/sequence/FastQC-0.11.3:/soft/bio/sequence/express-1.4.1:/soft/bio/sequence/cufflinks-2.2.0/bin:/soft/bio/sequence/samtools-0.1.18:/soft/bio/sequence/trinityrnaseq-2.1.0:/soft/bio/sequence/rsem-1.2.4:/soft/devel/python-2.7/bin:/soft/devel/python-3.3.0/bin:/soft/bio/sequence/tophat-2.0.8/bin:/soft/bio/sequence/bowtie2-2.2.4:/soft/bio/sequence/bowtie-0.12.7:/soft/bio/sequence/sratoolkit-2.3.4-2/bin:/soft/R/rstudio-0.99.879/bin:/soft/R/R-3.3.2/bin:/home/william/Documents/programs/my_quick_scripts/bin:/soft/system/lua/bin:/soft/system/luarocks/bin:/soft/bio/sequence/cufflinks-2.2.1/:/soft/bio/sequence/bedtools-2.25.0/bin:/home/william/Documents/programs/mendeleydesktop-1.15.1-linux-x86_64/bin/:/home/william/anaconda3/bin:/soft/bio/sequence/kallisto:/soft/bio/sequence/emboss-6.6.0/bin/:/soft/bio/sequence/gmap/bin:/soft/bio/sequence/blat/:/soft/bio/sequence/oases_0.2.08:/soft/bio/sequence/velvet_1.2.08:/soft/bio/sequence/fastx_toolkit-0.0.13.2/bin:/soft/bio/sequence/snap_v1.0:/soft/bio/sequence/bam-read-1.0:/soft/bio/sequence/SalmonBeta-v0.3.0/bin:/soft/bio/sequence/ncbi-blast-2.2.29+/bin:/soft/bio/sequence/transrate-1.0.0.beta3:/soft/bio/sequence/bedtools-2.17.0/bin:/soft/bio/sequence/phylip-3.69/exe:Documents/programs/fastq_screen_v0.5.2/:/soft/bio/sequence/FastQC-0.11.3:/soft/bio/sequence/express-1.4.1:/soft/bio/sequence/cufflinks-2.2.0/bin:/soft/bio/sequence/samtools-0.1.18:/soft/bio/sequence/trinityrnaseq-2.1.0:/soft/bio/sequence/rsem-1.2.4:/soft/devel/python-2.7/bin:/soft/devel/python-3.3.0/bin:/soft/bio/sequence/tophat-2.0.8/bin:/soft/bio/sequence/bowtie2-2.2.4:/soft/bio/sequence/bowtie-0.12.7:/soft/bio/sequence/sratoolkit-2.3.4-2/bin:/soft/R/rstudio-0.99.879/bin:/soft/R/R-3.3.2/bin:/home/william/Documents/programs/my_quick_scripts/bin:/usr/lib64/qt-3.3/bin:/home/william/perl5/bin:/soft/system/lua/bin:/soft/system/luarocks/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin:/home/william/bin
+10 verbose lifecycle williamrblevins.info@0.1.0~build: CWD: /home/william/Dropbox/williamrblevins.info-master/build_environment
+11 silly lifecycle williamrblevins.info@0.1.0~build: Args: [ '-c', 'webpack -d .' ]
+12 silly lifecycle williamrblevins.info@0.1.0~build: Returned: code: 1  signal: null
+13 info lifecycle williamrblevins.info@0.1.0~build: Failed to exec build script
+14 verbose stack Error: williamrblevins.info@0.1.0 build: `webpack -d .`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (/usr/lib/node_modules/npm/lib/utils/lifecycle.js:255:16)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at EventEmitter.emit (events.js:191:7)
+14 verbose stack     at ChildProcess.<anonymous> (/usr/lib/node_modules/npm/lib/utils/spawn.js:40:14)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at ChildProcess.emit (events.js:191:7)
+14 verbose stack     at maybeClose (internal/child_process.js:920:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:230:5)
+15 verbose pkgid williamrblevins.info@0.1.0
+16 verbose cwd /home/william/Dropbox/williamrblevins.info-master/build_environment
+17 error Linux 3.10.0-514.26.2.el7.x86_64
+18 error argv "/usr/bin/node" "/usr/bin/npm" "run" "build"
+19 error node v6.14.2
+20 error npm  v3.10.10
+21 error code ELIFECYCLE
+22 error williamrblevins.info@0.1.0 build: `webpack -d .`
+22 error Exit status 1
+23 error Failed at the williamrblevins.info@0.1.0 build script 'webpack -d .'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the williamrblevins.info package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     webpack -d .
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs williamrblevins.info
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls williamrblevins.info
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]

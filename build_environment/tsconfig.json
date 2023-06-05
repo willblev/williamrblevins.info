@@ -1,0 +1,18 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "target": "esnext",
+    "skipLibCheck": true,
+    "lib": ["dom", "esnext"],
+    "moduleResolution": "node",
+    "removeComments": true,
+    "inlineSourceMap": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "jsx": "react",
+    "jsxFactory": "h"
+  },
+  "exclude": ["node_modules"]
+}

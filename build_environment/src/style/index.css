@@ -1,0 +1,26 @@
+body {
+  background-color: #000;
+  color: #32e732;
+  font-family: monospace, "Courier New", Courier;
+  word-break: break-all;
+  margin-bottom: 0;
+  font-size: 15px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+::selection {
+  background: #fff;
+}
+
+#input-container {
+  padding-bottom: 8px;
+}
+
+#input {
+  outline: none;
+  color: transparent;
+  text-shadow: 0 0 0 #00e100;
+}
